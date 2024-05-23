@@ -1,0 +1,83 @@
+body
+ {
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-image:url("./imagenes/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    margin:0;
+    padding: 20px;
+    border: 1px solid#f6f6f6;
+    font-family: Arial, sans-serif;
+  }
+  .contenedor
+  {
+    
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(232, 237, 229, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+table
+  {
+    
+    border: 5PX solid black;
+    border-collapse: collapse;
+    width: 90%;
+    font-size: 0.5rem;
+    height: 18px;/*alto de la tabla*/
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-left:auto;
+    margin-right: auto;
+    
+  }
+#recreo
+  {
+    background-color: rgb(197, 168, 182);
+
+  }
+th{
+    border: 1PX solid black;
+    text-align: center;
+    background-color: rgb(196, 241, 255);    
+  }
+td{
+    border: 1PX solid black;
+    text-align: center;
+    background-color: rgb(243, 234, 237);
+  }
+td:first-child{
+    background-color: rgb(183, 246, 250);
+}
+#Materias{
+    color: rgba(19, 161, 144, 0.927);
+    
+}
+h1{
+    color: #721237;
+    margin-bottom: 20px;
+
+}
+h2{
+    color: #121a72;
+    margin-bottom: 20px;
+}
+img{
+    border-radius: 30px;
+}
+li{
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid rgb(7, 148, 24);
+}
+ul,ol{
+    margin: 20px;
+    padding: 10px 40px;
+    background-color:#AED9E0;
+    border: 1px solid rgb(5, 9, 9);
+}
