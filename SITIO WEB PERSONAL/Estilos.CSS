@@ -73,11 +73,14 @@ img{
 li{
     margin-bottom: 10px;
     padding: 5px;
-    border-bottom: 1px solid rgb(7, 148, 24);
+    border-bottom: 1px solid rgb(13, 33, 15);
 }
 ul,ol{
     margin: 20px;
-    padding: 10px 40px;
+    padding: 1px 40px;
     background-color:#AED9E0;
     border: 1px solid rgb(5, 9, 9);
+}
+LI:last-child{
+    border-bottom: NONE;
 }
